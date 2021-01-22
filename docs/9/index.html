@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Vue.jsのcomponentを使う。</title>
+    <script src="../vue.3.0.5.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+<h1><a href="https://github.com/ytyaru/JS.Vue.3.0.5.component.20210121185722">Vue.jsのcomponentを使う。</a></h1>
+<div id="app">
+    <custom-input
+        :model-value="searchText"
+        @update:model-value="searchText = $event"
+    ></custom-input>
+</div>
+</body>
+</html>
